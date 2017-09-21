@@ -1,0 +1,46 @@
+div.pageHeader {
+  text-align: center;
+  background-color: powderblue;
+  padding: 8px;
+  width: 100%;
+}
+
+div.leftNav {
+  width: 15%;
+  height: 100%;
+  float: left;
+  background-color: LemonChiffon;
+}
+
+.leftNav li {
+  background-color: #66ccff;
+  padding: 5px;
+  margin: 2px;
+  width: 80%;
+}
+
+div.content {
+  float: left;
+  width 85%;
+  margin: 10px;
+
+}
+
+div.pageFooter {
+  text-align: center;
+}
+
+body {
+
+}
+
+html, body {
+ min-height: 100%;
+ padding: 0;
+ margin: 0;
+ position: absolute;
+ top: 0;
+ bottom: 0;
+ left: 0;
+ right: 0;
+}
