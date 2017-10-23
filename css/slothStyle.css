@@ -1,5 +1,7 @@
-div.pageHeader {
+.pageHeader {
   text-align: center;
+  font-size: x-large;
+  font-family: Impact, Charcoal, sans-serif;
   background-color: powderblue;
   padding: 8px;
   width: 100%;
@@ -10,10 +12,14 @@ div.leftNav {
   height: 100%;
   float: left;
   background-color: LemonChiffon;
+  text-align: center;
 }
 
-.leftNav li {
+li {
   list-style: none;
+}
+
+.leftNav li{
   background-color: #66ccff;
   border: 3px solid #66ccff;
   border-radius: 10px;
@@ -28,11 +34,15 @@ div.content {
   width: 45%;
 }
 
-div.review {
+.review {
   padding: 8px;
   border: 3px solid grey;
   border-radius: 10px;
   margin-bottom: 10px;
+}
+
+.review a {
+  font-family: Impact, Charcoal, sans-serif;
 }
 
 div.pageFooter {
