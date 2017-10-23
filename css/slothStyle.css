@@ -7,6 +7,11 @@
   width: 100%;
 }
 
+.pageHeader a {
+  text-decoration: none;
+  color: black;
+}
+
 div.leftNav {
   width: 15%;
   height: 100%;
@@ -26,6 +31,10 @@ li {
   padding: 5px;
   margin: 5px;
   width: 80%;
+}
+
+.leftNav a {
+  text-decoration: none;
 }
 
 div.content {
