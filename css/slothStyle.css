@@ -2,7 +2,7 @@
   text-align: center;
   font-size: x-large;
   font-family: Impact, Charcoal, sans-serif;
-  background-color: powderblue;
+  background-color: #66ffb3;
   padding: 8px;
   width: 100%;
 }
@@ -14,10 +14,13 @@
 
 div.leftNav {
   width: 15%;
-  height: 100%;
+  height: 50%;
   float: left;
-  background-color: LemonChiffon;
   text-align: center;
+  background: -webkit-linear-gradient(#66ffb3,#b3ffd9,transparent); /* Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#66ffb3,#b3ffd9,transparent); /* Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#66ffb3,#b3ffd9,transparent); /* Firefox 3.6 to 15 */
+  background: linear-gradient(#66ffb3,#b3ffd9,transparent); /* Standard syntax (must be last) */
 }
 
 li {
@@ -45,9 +48,10 @@ div.content {
 
 .review {
   padding: 8px;
-  border: 3px solid grey;
+  border: 3px solid white;
   border-radius: 10px;
   margin-bottom: 10px;
+  background: rgba(255, 255, 255, 0.85)
 }
 
 .review a {
@@ -60,7 +64,10 @@ div.pageFooter {
 }
 
 body {
-
+  background-image: url("../img/sloth-background.jpg");
+  background-repeat: no-repeat;
+  background-position: 175% 100%;
+  background-attachment: fixed;
 }
 
 html, body {
