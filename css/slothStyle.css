@@ -63,7 +63,7 @@ div.pageFooter {
   float: initial;
 }
 
-body {
+.bodyStyle {
   background-image: url("../img/sloth-background.jpg");
   background-repeat: no-repeat;
   background-position: 175% 100%;
